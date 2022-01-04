@@ -8,6 +8,7 @@ export default function Footer() {
 			color="gray.600"
 			borderTop="1px"
 			borderColor="gray.100"
+			marginTop="2rem"
 		>
 			2021 Real Estate, Inc
 		</Box>
