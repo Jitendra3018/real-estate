@@ -89,6 +89,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
 	);
 }
 
+// We have used Static Props over here because the data is fetched only once at the build time and not at the runtime.
 export async function getStaticProps() {
 	// We got everything after the Baseurl through the docs of Rapid API
 	const propertyForSale = await fetchApi(
